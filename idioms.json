@@ -1,0 +1,176 @@
+{
+  "idioms": [
+    {
+      "idiom": "一举两得",
+      "pinyin": "yī jǔ liǎng dé",
+      "meaning": {
+        "en": "To achieve two things with one action",
+        "ko": "한 번의 행동으로 두 가지 이득을 얻다",
+        "ja": "一石二鳥（一つの行動で二つの利益を得ること）"
+      },
+      "words": [
+        {"word": "一", "meaning": {"en": "one", "ko": "하나", "ja": "一つ"}},
+        {"word": "举", "meaning": {"en": "action", "ko": "행동", "ja": "行動"}},
+        {"word": "两", "meaning": {"en": "two", "ko": "두", "ja": "二つ"}},
+        {"word": "得", "meaning": {"en": "gain", "ko": "얻다", "ja": "得る"}}
+      ]
+    },
+    {
+      "idiom": "入乡随俗",
+      "pinyin": "rù xiāng suí sú",
+      "meaning": {
+        "en": "When in Rome, do as the Romans do",
+        "ko": "로마에서는 로마법을 따르라",
+        "ja": "郷に入っては郷に従え"
+      },
+      "words": [
+        {"word": "入", "meaning": {"en": "enter", "ko": "들어가다", "ja": "入る"}},
+        {"word": "乡", "meaning": {"en": "village", "ko": "마을", "ja": "郷"}},
+        {"word": "随", "meaning": {"en": "follow", "ko": "따르다", "ja": "従う"}},
+        {"word": "俗", "meaning": {"en": "custom", "ko": "풍습", "ja": "習慣"}}
+      ]
+    },
+    {
+      "idiom": "画蛇添足",
+      "pinyin": "huà shé tiān zú",
+      "meaning": {
+        "en": "To add feet to a snake (unnecessary addition)",
+        "ko": "뱀에게 발을 더하다 (불필요한 추가)",
+        "ja": "蛇に足を描き加える（余計なことをする）"
+      },
+      "words": [
+        {"word": "画", "meaning": {"en": "draw", "ko": "그리다", "ja": "描く"}},
+        {"word": "蛇", "meaning": {"en": "snake", "ko": "뱀", "ja": "蛇"}},
+        {"word": "添", "meaning": {"en": "add", "ko": "더하다", "ja": "加える"}},
+        {"word": "足", "meaning": {"en": "foot", "ko": "발", "ja": "足"}}
+      ]
+    },
+    {
+      "idiom": "守株待兔",
+      "pinyin": "shǒu zhū dài tù",
+      "meaning": {
+        "en": "To wait by a tree stump for rabbits (rely on luck)",
+        "ko": "토끼를 기다리며 그루터기를 지키다 (운에 의존하다)",
+        "ja": "木の株で兎を待つ（偶然の幸運を期待する）"
+      },
+      "words": [
+        {"word": "守", "meaning": {"en": "guard", "ko": "지키다", "ja": "守る"}},
+        {"word": "株", "meaning": {"en": "stump", "ko": "그루터기", "ja": "株"}},
+        {"word": "待", "meaning": {"en": "wait", "ko": "기다리다", "ja": "待つ"}},
+        {"word": "兔", "meaning": {"en": "rabbit", "ko": "토끼", "ja": "兎"}}
+      ]
+    },
+    {
+      "idiom": "四面八方",
+      "pinyin": "sì miàn bā fāng",
+      "meaning": {
+        "en": "From all directions, everywhere",
+        "ko": "사방팔방, 모든 방향에서",
+        "ja": "四方八方、あらゆる方向から"
+      },
+      "words": [
+        {"word": "四", "meaning": {"en": "four", "ko": "넷", "ja": "四"}},
+        {"word": "面", "meaning": {"en": "side", "ko": "면", "ja": "面"}},
+        {"word": "八", "meaning": {"en": "eight", "ko": "여덟", "ja": "八"}},
+        {"word": "方", "meaning": {"en": "direction", "ko": "방향", "ja": "方向"}}
+      ]
+    },
+    {
+      "idiom": "万水千山",
+      "pinyin": "wàn shuǐ qiān shān",
+      "meaning": {
+        "en": "Countless rivers and mountains (long journey)",
+        "ko": "수많은 강과 산 (긴 여정)",
+        "ja": "万の川と千の山（長い旅路）"
+      },
+      "words": [
+        {"word": "万", "meaning": {"en": "ten thousand", "ko": "만", "ja": "万"}},
+        {"word": "水", "meaning": {"en": "water", "ko": "물", "ja": "水"}},
+        {"word": "千", "meaning": {"en": "thousand", "ko": "천", "ja": "千"}},
+        {"word": "山", "meaning": {"en": "mountain", "ko": "산", "ja": "山"}}
+      ]
+    },
+    {
+      "idiom": "半途而废",
+      "pinyin": "bàn tú ér fèi",
+      "meaning": {
+        "en": "To give up halfway",
+        "ko": "중도에 포기하다",
+        "ja": "途中で投げ出す"
+      },
+      "words": [
+        {"word": "半", "meaning": {"en": "half", "ko": "반", "ja": "半分"}},
+        {"word": "途", "meaning": {"en": "journey", "ko": "여정", "ja": "道のり"}},
+        {"word": "而", "meaning": {"en": "and", "ko": "그리고", "ja": "そして"}},
+        {"word": "废", "meaning": {"en": "abandon", "ko": "포기하다", "ja": "放棄する"}}
+      ]
+    },
+    {
+      "idiom": "对牛弹琴",
+      "pinyin": "duì niú tán qín",
+      "meaning": {
+        "en": "Playing the lute to a cow (wasted effort)",
+        "ko": "소에게 거문고를 연주하다 (헛수고)",
+        "ja": "牛に琴を弾く（無駄な努力）"
+      },
+      "words": [
+        {"word": "对", "meaning": {"en": "to", "ko": "~에게", "ja": "～に対して"}},
+        {"word": "牛", "meaning": {"en": "cow", "ko": "소", "ja": "牛"}},
+        {"word": "弹", "meaning": {"en": "play", "ko": "연주하다", "ja": "弾く"}},
+        {"word": "琴", "meaning": {"en": "lute", "ko": "거문고", "ja": "琴"}}
+      ]
+    },
+    {
+      "idiom": "风平浪静",
+      "pinyin": "fēng píng làng jìng",
+      "meaning": {
+        "en": "Calm wind and waves (peaceful situation)",
+        "ko": "바람이 잔잔하고 파도가 고요하다 (평화로운 상황)",
+        "ja": "風が穏やかで波が静か（平和な状況）"
+      },
+      "words": [
+        {"word": "风", "meaning": {"en": "wind", "ko": "바람", "ja": "風"}},
+        {"word": "平", "meaning": {"en": "flat", "ko": "평평한", "ja": "平ら"}},
+        {"word": "浪", "meaning": {"en": "wave", "ko": "파도", "ja": "波"}},
+        {"word": "静", "meaning": {"en": "quiet", "ko": "고요한", "ja": "静か"}}
+      ]
+    },
+    {
+      "idiom": "自相矛盾",
+      "pinyin": "zì xiāng máo dùn",
+      "meaning": {
+        "en": "Self-contradictory",
+        "ko": "자기모순",
+        "ja": "自己矛盾"
+      },
+      "words": [
+        {"word": "自", "meaning": {"en": "self", "ko": "자기", "ja": "自分"}},
+        {"word": "相", "meaning": {"en": "mutual", "ko": "서로", "ja": "相互"}},
+        {"word": "矛", "meaning": {"en": "spear", "ko": "창", "ja": "矛"}},
+        {"word": "盾", "meaning": {"en": "shield", "ko": "방패", "ja": "盾"}}
+      ]
+    }
+  ],
+  "extra_words": [
+    {"word": "大", "meaning": {"en": "big", "ko": "크다", "ja": "大きい"}},
+    {"word": "小", "meaning": {"en": "small", "ko": "작다", "ja": "小さい"}},
+    {"word": "人", "meaning": {"en": "person", "ko": "사람", "ja": "人"}},
+    {"word": "天", "meaning": {"en": "sky", "ko": "하늘", "ja": "空"}},
+    {"word": "地", "meaning": {"en": "earth", "ko": "땅", "ja": "地"}},
+    {"word": "日", "meaning": {"en": "sun", "ko": "해", "ja": "太陽"}},
+    {"word": "月", "meaning": {"en": "moon", "ko": "달", "ja": "月"}},
+    {"word": "水", "meaning": {"en": "water", "ko": "물", "ja": "水"}},
+    {"word": "火", "meaning": {"en": "fire", "ko": "불", "ja": "火"}},
+    {"word": "木", "meaning": {"en": "wood", "ko": "나무", "ja": "木"}},
+    {"word": "金", "meaning": {"en": "gold", "ko": "금", "ja": "金"}},
+    {"word": "石", "meaning": {"en": "stone", "ko": "돌", "ja": "石"}},
+    {"word": "心", "meaning": {"en": "heart", "ko": "마음", "ja": "心"}},
+    {"word": "手", "meaning": {"en": "hand", "ko": "손", "ja": "手"}},
+    {"word": "口", "meaning": {"en": "mouth", "ko": "입", "ja": "口"}},
+    {"word": "耳", "meaning": {"en": "ear", "ko": "귀", "ja": "耳"}},
+    {"word": "目", "meaning": {"en": "eye", "ko": "눈", "ja": "目"}},
+    {"word": "鱼", "meaning": {"en": "fish", "ko": "물고기", "ja": "魚"}},
+    {"word": "鸟", "meaning": {"en": "bird", "ko": "새", "ja": "鳥"}},
+    {"word": "马", "meaning": {"en": "horse", "ko": "말", "ja": "馬"}}
+  ]
+}
