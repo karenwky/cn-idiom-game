@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Chinese 4-Word Idiom CLI Game.
+Chinese 4-Character Idiom CLI Game.
 A game where players fill in the blanks of Chinese idioms.
-Supports multiple languages (EN/KR/JP).
+Supports multiple languages (EN/JP/KR).
 """
 
 import json
@@ -31,7 +31,7 @@ ENTER = '\r'
 ENTER_ALT = '\n'
 
 # Language settings
-LANGUAGES = ["en", "ko", "ja"]
+LANGUAGES = ["en", "ja", "ko"]
 LANGUAGE_DISPLAY = {"en": "English", "ko": "한국어", "ja": "日本語"}
 
 def clear_screen():

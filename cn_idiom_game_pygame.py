@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Chinese 4-Word Idiom Game with Pygame UI.
+Chinese 4-Character Idiom Game with Pygame UI.
 A game where players fill in the blanks of Chinese idioms with a retro 8-bit style UI.
 """
 
@@ -38,14 +38,14 @@ STATE_GAME_OVER = 3
 STATE_COMPLETE = 4
 
 # Language settings
-LANGUAGES = ["en", "ko", "ja"]
+LANGUAGES = ["en", "ja", "ko"]
 LANGUAGE_DISPLAY = {"en": "EN", "ko": "KR", "ja": "JP"}
 
 class IdiomGame:
     def __init__(self):
         """Initialize the game."""
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-        pygame.display.set_caption("Chinese 4-Word Idiom Game")
+        pygame.display.set_caption("Chinese 4-Character Idiom Game")
         self.clock = pygame.time.Clock()
         
         # Load fonts
@@ -466,12 +466,36 @@ class IdiomGame:
             SCREEN_WIDTH//2 - 100, 350, 200, 60, RED, (255, 100, 100)
         )
         
-        # Language button (smaller, just showing language code)
-        lang_text = LANGUAGE_DISPLAY[self.language]
-        lang_button, lang_hover = self.draw_button(
-            lang_text, 
-            SCREEN_WIDTH - 70, 20, 50, 40, GREEN, (100, 255, 100)
-        )
+        # Language buttons (smaller, just showing language code)
+        # Use the same font size for all language buttons
+        lang_font = self.font_small  # Use the same small font for all language buttons
+        
+        # EN button
+        en_text = "EN"
+        en_surface = lang_font.render(en_text, True, WHITE)
+        en_rect = pygame.Rect(SCREEN_WIDTH - 150, 20, 40, 40)
+        pygame.draw.rect(self.screen, GREEN if self.language == "en" else DARK_GRAY, en_rect)
+        pygame.draw.rect(self.screen, WHITE, en_rect, 2)  # Border
+        en_text_rect = en_surface.get_rect(center=en_rect.center)
+        self.screen.blit(en_surface, en_text_rect)
+        
+        # JP button
+        jp_text = "JP"
+        jp_surface = lang_font.render(jp_text, True, WHITE)
+        jp_rect = pygame.Rect(SCREEN_WIDTH - 100, 20, 40, 40)
+        pygame.draw.rect(self.screen, GREEN if self.language == "ja" else DARK_GRAY, jp_rect)
+        pygame.draw.rect(self.screen, WHITE, jp_rect, 2)  # Border
+        jp_text_rect = jp_surface.get_rect(center=jp_rect.center)
+        self.screen.blit(jp_surface, jp_text_rect)
+        
+        # KR button
+        kr_text = "KR"
+        kr_surface = lang_font.render(kr_text, True, WHITE)
+        kr_rect = pygame.Rect(SCREEN_WIDTH - 50, 20, 40, 40)
+        pygame.draw.rect(self.screen, GREEN if self.language == "ko" else DARK_GRAY, kr_rect)
+        pygame.draw.rect(self.screen, WHITE, kr_rect, 2)  # Border
+        kr_text_rect = kr_surface.get_rect(center=kr_rect.center)
+        self.screen.blit(kr_surface, kr_text_rect)
         
         # Handle button clicks
         if pygame.mouse.get_pressed()[0]:
@@ -488,10 +512,16 @@ class IdiomGame:
                 pygame.quit()
                 sys.exit()
             
-            elif lang_hover:
-                # Cycle through languages
-                current_index = LANGUAGES.index(self.language)
-                self.language = LANGUAGES[(current_index + 1) % len(LANGUAGES)]
+            # Handle language button clicks
+            mouse_pos = pygame.mouse.get_pos()
+            if en_rect.collidepoint(mouse_pos):
+                self.language = "en"
+                pygame.time.delay(200)  # Prevent double-click
+            elif jp_rect.collidepoint(mouse_pos):
+                self.language = "ja"
+                pygame.time.delay(200)  # Prevent double-click
+            elif kr_rect.collidepoint(mouse_pos):
+                self.language = "ko"
                 pygame.time.delay(200)  # Prevent double-click
     
     def draw_idiom_with_filled_blanks(self, challenge, x, y):
