@@ -1,8 +1,10 @@
 {
   "en": {
-    "game_title": "Chinese 4-Word Idiom Game",
-    "welcome": "Welcome to the Chinese 4-Word Idiom Game!",
+    "game_title": "Chinese 4-Character Idiom Game",
+    "welcome": "Welcome to the Chinese 4-Character Idiom Game!",
     "instructions": "Fill in the blanks with the correct Chinese characters.",
+    "idiom_with_blanks": "Idiom with blanks:",
+    "idiom": "Idiom:",
     "pinyin": "Pinyin:",
     "meaning": "Meaning:",
     "given_characters": "Given characters:",
@@ -19,19 +21,22 @@
     "game_over": "Game Over! You've run out of lives.",
     "lives_remaining": "You lost a life! {0} lives remaining.",
     "final_score": "Final Score:",
-    "thanks_for_playing": "Thanks for playing the Chinese 4-Word Idiom Game!",
+    "thanks_for_playing": "Thanks for playing the Chinese 4-Character Idiom Game!",
     "press_continue": "Press Enter to continue...",
     "completed_all": "Congratulations!\nYou've completed all available idioms!",
     "play_button": "Play",
     "quit_button": "Quit",
     "submit_button": "Submit",
     "continue_button": "Continue",
-    "play_again_button": "Play Again"
+    "play_again_button": "Play Again",
+    "language_selection": "Select Language"
   },
   "ko": {
     "game_title": "중국어 사자성어 게임",
     "welcome": "중국어 사자성어 게임에 오신 것을 환영합니다!",
     "instructions": "빈칸에 알맞은 한자를 채워 넣으세요.",
+    "idiom_with_blanks": "빈칸이 있는 사자성어:",
+    "idiom": "사자성어:",
     "pinyin": "병음:",
     "meaning": "의미:",
     "given_characters": "주어진 글자:",
@@ -50,17 +55,20 @@
     "final_score": "최종 점수:",
     "thanks_for_playing": "중국어 사자성어 게임을 플레이해 주셔서 감사합니다!",
     "press_continue": "계속하려면 Enter 키를 누르세요...",
-    "completed_all": "축하합니다! 모든 사자성어를 완료했습니다!",
+    "completed_all": "축하합니다!\n모든 사자성어를 완료했습니다!",
     "play_button": "시작",
     "quit_button": "종료",
     "submit_button": "제출",
     "continue_button": "계속",
-    "play_again_button": "다시 하기"
+    "play_again_button": "다시 하기",
+    "language_selection": "언어 선택"
   },
   "ja": {
     "game_title": "中国語の四字熟語ゲーム",
     "welcome": "中国語の四字熟語ゲームへようこそ！",
     "instructions": "空欄に正しい漢字を入れてください。",
+    "idiom_with_blanks": "空欄のある四字熟語:",
+    "idiom": "四字熟語:",
     "pinyin": "ピンイン:",
     "meaning": "意味:",
     "given_characters": "与えられた文字:",
@@ -84,6 +92,7 @@
     "quit_button": "終了",
     "submit_button": "提出",
     "continue_button": "続ける",
-    "play_again_button": "もう一度"
+    "play_again_button": "もう一度",
+    "language_selection": "言語選択"
   }
 }
