@@ -7,31 +7,39 @@ A multilingual interactive game for learning Chinese 4-character idioms (四字�
 The Chinese 4-Character Idiom Game offers an engaging way to learn and practice Chinese idioms through an interactive fill-in-the-blank format. Players are presented with Chinese 4-character idioms where 2 characters are hidden, and they must select the characters in correct order from a list of options.
 
 ### CLI Version
-```
-Chinese 4-Character Idiom Game
 
-Idiom with blanks: 一_两_
-Pinyin: yī jǔ liǎng dé
-Meaning: To achieve two things with one action
+The CLI version offers a text-based interface with color-coded feedback, multiple-choice options, and language selection. Players fill in the blanks for Chinese idioms using keyboard input and receive instant validation of their answers.
 
-Given characters:
-  一 - one
-  两 - two
+<img height=700 align="center" alt="CLI Image Preview (EN)" src="https://github.com/user-attachments/assets/51277ae3-4177-4cc2-840e-c3d5ae9b7b51">
 
-Options for the blanks:
-  1. 举 - action
-  2. 得 - gain
-  3. 大 - big
-  4. 小 - small
-  5. 人 - person
-```
+<br>
+<br>
+
+<details>
+  <summary><b><big>🕹️ Video Demo</big></b></summary>
+  
+  https://github.com/user-attachments/assets/8ebc3f6d-b0f1-45f4-aa4f-dac0acc96d45
+  
+</details>
 
 ### GUI Version
-The GUI version features a retro 8-bit style interface with colorful visuals, sound effects, and smooth animations. Players can select characters to fill in the blanks and receive immediate feedback on their answers.
 
-### Video Demo
+The GUI version features a retro 8-bit style interface with colorful visuals, sound effects, and smooth animations. Players can select answers by clicking buttons and receive immediate feedback on their answers.
 
-Coming soon...
+<img height=600 align="center" alt="CLI Video Preview (EN)" src="https://github.com/user-attachments/assets/0ee7268c-74e2-4a27-bbd1-b809167a12a2">
+
+<br>
+<br>
+
+<details>
+  <summary><b><big>🕹️ Video Demo (🔊Sound ON!)</big></b></summary>
+  
+  https://github.com/user-attachments/assets/4cd2d8f7-fa0f-4da0-90a3-9e842a4cec33
+
+</details>
+
+> [!TIP]
+> The demo videos showcase only three sample questions for illustration purposes. [Download the game](#-how-to-play) to explore the full question set!
 
 ## 🚀 Technologies Used
 
@@ -63,8 +71,9 @@ Coming soon...
 - **Game Elements**:
   - Lives system (3 hearts)
   - Score tracking
-  - Sound effects for actions
-  - Retro 8-bit visual style
+  - Randomized blank positions
+  - Sound effects for actions (GUI version)
+  - Retro 8-bit visual style (GUI version)
 
 ## 🎲 How to Play
 
