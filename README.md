@@ -2,6 +2,9 @@
 
 A multilingual interactive game for learning Chinese 4-character idioms (四字成语 sìzìchéngyǔ) in CLI and Pygame GUI versions.
 
+> [!NOTE]
+> **Curious about the entire building process? Read my [blog post](https://www.linkedin.com/posts/wongkayankaren_amazonqcli-awscommunity-genai-activity-7335329297185873923-MFH9) for the full story! 👾**
+
 ## 🎮 Preview
 
 The Chinese 4-Character Idiom Game offers an engaging way to learn and practice Chinese idioms through an interactive fill-in-the-blank format. Players are presented with Chinese 4-character idioms where 2 characters are hidden, and they must select the characters in correct order from a list of options.
